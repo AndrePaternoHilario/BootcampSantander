@@ -1,0 +1,22 @@
+
+"__JSON = JavaScript Object Notation / normalmente resultado de API vem em formato json__"
+
+
+    {
+        
+        "description": "schema POST bank",
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "number",
+                "minimun": 0
+            },
+            "code": {
+                "type": "string"
+            },
+            "name": {
+                "type": "string"
+            }
+        }
+    }
+
